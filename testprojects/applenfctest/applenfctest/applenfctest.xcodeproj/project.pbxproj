@@ -1,0 +1,434 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B724FA801F268B55000224D1 /* BitlySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B724FA7F1F268B4F000224D1 /* BitlySDK.framework */; };
+		B724FA831F26BD1F000224D1 /* Bitly.mm in Sources */ = {isa = PBXBuildFile; fileRef = B724FA811F26BD1F000224D1 /* Bitly.mm */; };
+		B74306071F2665790016026F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B74306061F2665790016026F /* AppDelegate.m */; };
+		B743060A1F2665790016026F /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = B74306091F2665790016026F /* ViewController.mm */; };
+		B743060D1F2665790016026F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B743060B1F2665790016026F /* Main.storyboard */; };
+		B743060F1F2665790016026F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B743060E1F2665790016026F /* Assets.xcassets */; };
+		B74306121F2665790016026F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B74306101F2665790016026F /* LaunchScreen.storyboard */; };
+		B74306151F2665790016026F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B74306141F2665790016026F /* main.m */; };
+		B743061D1F266BF50016026F /* CoreNFC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B743061C1F266BE10016026F /* CoreNFC.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6E4D453EAA50D6E33B8A3A4B /* Pods-applenfctest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-applenfctest.release.xcconfig"; path = "Pods/Target Support Files/Pods-applenfctest/Pods-applenfctest.release.xcconfig"; sourceTree = "<group>"; };
+		B724FA7E1F268B16000224D1 /* BitlySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BitlySDK.framework; path = Pods/BitlySDK/BitlySDK.framework; sourceTree = "<group>"; };
+		B724FA7F1F268B4F000224D1 /* BitlySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BitlySDK.framework; sourceTree = "<group>"; };
+		B724FA811F26BD1F000224D1 /* Bitly.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = Bitly.mm; sourceTree = "<group>"; };
+		B724FA821F26BD1F000224D1 /* Bitly.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Bitly.h; sourceTree = "<group>"; };
+		B74306021F2665780016026F /* applenfctest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = applenfctest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B74306051F2665790016026F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B74306061F2665790016026F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B74306081F2665790016026F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B74306091F2665790016026F /* ViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ViewController.mm; sourceTree = "<group>"; };
+		B743060C1F2665790016026F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B743060E1F2665790016026F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B74306111F2665790016026F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B74306131F2665790016026F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B74306141F2665790016026F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B743061C1F266BE10016026F /* CoreNFC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreNFC.framework; path = System/Library/Frameworks/CoreNFC.framework; sourceTree = SDKROOT; };
+		B743061E1F2671820016026F /* applenfctest.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = applenfctest.entitlements; sourceTree = "<group>"; };
+		CFD8647422387BF5B6A6D1D9 /* libPods-applenfctest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-applenfctest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E05B1F91E31A0AB53C4B5EDD /* Pods-applenfctest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-applenfctest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-applenfctest/Pods-applenfctest.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B74305FF1F2665780016026F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B724FA801F268B55000224D1 /* BitlySDK.framework in Frameworks */,
+				B743061D1F266BF50016026F /* CoreNFC.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B74305F91F2665780016026F = {
+			isa = PBXGroup;
+			children = (
+				B74306041F2665780016026F /* applenfctest */,
+				B74306031F2665780016026F /* Products */,
+				B743061B1F266BE10016026F /* Frameworks */,
+				DC21513A13F5FC9867BCE35C /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		B74306031F2665780016026F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B74306021F2665780016026F /* applenfctest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B74306041F2665780016026F /* applenfctest */ = {
+			isa = PBXGroup;
+			children = (
+				B724FA811F26BD1F000224D1 /* Bitly.mm */,
+				B724FA821F26BD1F000224D1 /* Bitly.h */,
+				B743061E1F2671820016026F /* applenfctest.entitlements */,
+				B74306051F2665790016026F /* AppDelegate.h */,
+				B74306061F2665790016026F /* AppDelegate.m */,
+				B74306081F2665790016026F /* ViewController.h */,
+				B74306091F2665790016026F /* ViewController.mm */,
+				B743060B1F2665790016026F /* Main.storyboard */,
+				B743060E1F2665790016026F /* Assets.xcassets */,
+				B74306101F2665790016026F /* LaunchScreen.storyboard */,
+				B74306131F2665790016026F /* Info.plist */,
+				B74306141F2665790016026F /* main.m */,
+			);
+			path = applenfctest;
+			sourceTree = "<group>";
+		};
+		B743061B1F266BE10016026F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B724FA7E1F268B16000224D1 /* BitlySDK.framework */,
+				B724FA7F1F268B4F000224D1 /* BitlySDK.framework */,
+				B743061C1F266BE10016026F /* CoreNFC.framework */,
+				CFD8647422387BF5B6A6D1D9 /* libPods-applenfctest.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DC21513A13F5FC9867BCE35C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E05B1F91E31A0AB53C4B5EDD /* Pods-applenfctest.debug.xcconfig */,
+				6E4D453EAA50D6E33B8A3A4B /* Pods-applenfctest.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B74306011F2665780016026F /* applenfctest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B74306181F2665790016026F /* Build configuration list for PBXNativeTarget "applenfctest" */;
+			buildPhases = (
+				257576A19CCB96118E8D8421 /* [CP] Check Pods Manifest.lock */,
+				B74305FE1F2665780016026F /* Sources */,
+				B74305FF1F2665780016026F /* Frameworks */,
+				B74306001F2665780016026F /* Resources */,
+				8261D450630C6C680D7A74B6 /* [CP] Embed Pods Frameworks */,
+				E544C372AE521D1C61B60238 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = applenfctest;
+			productName = applenfctest;
+			productReference = B74306021F2665780016026F /* applenfctest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B74305FA1F2665780016026F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = seaschi;
+				TargetAttributes = {
+					B74306011F2665780016026F = {
+						CreatedOnToolsVersion = 9.0;
+						SystemCapabilities = {
+							com.apple.NearFieldCommunicationTagReading = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = B74305FD1F2665780016026F /* Build configuration list for PBXProject "applenfctest" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B74305F91F2665780016026F;
+			productRefGroup = B74306031F2665780016026F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B74306011F2665780016026F /* applenfctest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B74306001F2665780016026F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B74306121F2665790016026F /* LaunchScreen.storyboard in Resources */,
+				B743060F1F2665790016026F /* Assets.xcassets in Resources */,
+				B743060D1F2665790016026F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		257576A19CCB96118E8D8421 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8261D450630C6C680D7A74B6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-applenfctest/Pods-applenfctest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E544C372AE521D1C61B60238 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-applenfctest/Pods-applenfctest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B74305FE1F2665780016026F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B743060A1F2665790016026F /* ViewController.mm in Sources */,
+				B74306151F2665790016026F /* main.m in Sources */,
+				B724FA831F26BD1F000224D1 /* Bitly.mm in Sources */,
+				B74306071F2665790016026F /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B743060B1F2665790016026F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B743060C1F2665790016026F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B74306101F2665790016026F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B74306111F2665790016026F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B74306161F2665790016026F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B74306171F2665790016026F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B74306191F2665790016026F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E05B1F91E31A0AB53C4B5EDD /* Pods-applenfctest.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = applenfctest/applenfctest.entitlements;
+				DEVELOPMENT_TEAM = UBF8T346G9;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = applenfctest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.microsoft.seanschiff.applenfctest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B743061A1F2665790016026F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E4D453EAA50D6E33B8A3A4B /* Pods-applenfctest.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = applenfctest/applenfctest.entitlements;
+				DEVELOPMENT_TEAM = UBF8T346G9;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = applenfctest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.microsoft.seanschiff.applenfctest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B74305FD1F2665780016026F /* Build configuration list for PBXProject "applenfctest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B74306161F2665790016026F /* Debug */,
+				B74306171F2665790016026F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B74306181F2665790016026F /* Build configuration list for PBXNativeTarget "applenfctest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B74306191F2665790016026F /* Debug */,
+				B743061A1F2665790016026F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B74305FA1F2665780016026F /* Project object */;
+}
